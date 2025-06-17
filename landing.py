@@ -1,7 +1,7 @@
 import streamlit as st
 from bg_remove import background_img_remove
 
-st.header('photoreal')
+st.header('photo-real')
 st.subheader('an attempt at photo-realistic image composition into a scene')
 
 pages={
@@ -10,7 +10,7 @@ pages={
              st.Page("light_direction.py", title='light direction'),
              st.Page("color_blending.py",title='color blending'),
              st.Page('output.py',title='final o/p'),
-             st.Page('tech.py',title='tech stack')]
+             st.Page('tech.py',title='alt approaches')]
 }
 
 pg=st.navigation(pages)
